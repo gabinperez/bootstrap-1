@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .fond-bleu{background-color: aquamarine;}
+        .hauteur-pixels{height: 100px;}
+        div.col-4 {border: 1px solid black;}
+        .div{border: 1px;}
+        
+    </style>
+</head>
+<body>
+
+
+<div class="container fond-bleu">
+
+     <div class="row hauteur-pixels ">
+            <div class="col-4">Texte en haut à gauche</div>
+            <div class="col-4 text-center">Texte en haut au milieux</div>
+            <div class="col-4 text-end">Texte en haut à droite</div>
+     </div>
+
+    <div class="row hauteur-pixels">
+            <div class="col-4  text-start justify-content-center">Texte au milieux à gauche</div>
+            <div class="col-4  text-center align-items-center ">Texte au milieux</div>
+            <div class="col-4  text-end justify-content-end">Texte au milieux à droite</div>
+    </div>
+    
+    <div class="row hauteur-pixels align-items-end">
+            <div class="col-4 d-flex align-items-end ">Texte en bas à gauche</div>
+            <div class="col-4 d-flex align-items-center ">Texte en bas au milieux</div>
+            <div class="col-4 d-flex align-items-end ">Texte en bas à droite</div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
